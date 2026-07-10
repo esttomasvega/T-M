@@ -1,6 +1,7 @@
-/* =========================
-   T-M - Estilos principales
-========================= */
+/* =====================================
+            T-M
+   Hoja principal de estilos
+===================================== */
 
 *{
     margin:0;
@@ -9,13 +10,24 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-body{
-    background:#f5f7fa;
+html{
+    scroll-behavior:smooth;
 }
 
-/* HEADER */
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+/* ================= HEADER ================= */
 
 header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
 
     background:#0f172a;
 
@@ -59,21 +71,19 @@ nav a{
 
     text-decoration:none;
 
-    transition:.3s;
-
     font-weight:bold;
+
+    transition:.3s;
 
 }
 
 nav a:hover{
-    
+
     color:#3b82f6;
 
 }
 
-/* =========================
-   HERO
-========================= */
+/* ================= HERO ================= */
 
 .hero{
 
@@ -149,51 +159,78 @@ nav a:hover{
 
 }
 
-/* =========================
-   CATEGORÍAS
-========================= */
+/* ================= CATEGORÍAS ================= */
 
 .categorias{
+
     padding:80px 8%;
-    background:#ffffff;
+
+    background:white;
+
 }
 
 .categorias h2{
+
     text-align:center;
+
     font-size:40px;
-    color:#0f172a;
+
     margin-bottom:50px;
+
+    color:#0f172a;
+
 }
 
 .contenedor-categorias{
+
     display:grid;
+
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
     gap:30px;
+
 }
 
 .categoria{
+
     background:#f5f7fa;
-    border-radius:15px;
+
     padding:30px;
+
+    border-radius:15px;
+
     text-align:center;
-    transition:0.3s;
+
+    transition:.3s;
+
     box-shadow:0 5px 15px rgba(0,0,0,.08);
+
 }
 
 .categoria:hover{
+
     transform:translateY(-8px);
+
 }
 
 .icono{
+
     font-size:55px;
+
     margin-bottom:20px;
+
 }
 
 .categoria h3{
+
     color:#2563eb;
+
     margin-bottom:15px;
+
 }
 
 .categoria p{
+
     color:#555;
+
 }
