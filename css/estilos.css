@@ -234,3 +234,53 @@ nav a:hover{
     color:#555;
 
 }
+
+/* =========================
+   LOGO
+========================= */
+
+.logo a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+/* =========================
+   CONTACTO
+========================= */
+
+.contacto-persona{
+
+    margin:20px 0;
+
+}
+
+.contacto-persona h4{
+
+    font-size:24px;
+
+    margin-bottom:10px;
+
+}
+
+.contacto-persona a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.contacto-persona a:hover{
+
+    color:#93c5fd;
+
+}
