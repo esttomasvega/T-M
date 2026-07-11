@@ -7,13 +7,77 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Contacto | T-M</title>
+<title>Contáctanos | T-M</title>
 
 <link rel="stylesheet" href="css/estilos.css">
 
+<style>
+
+/* Botones de WhatsApp */
+
+.whatsapp-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+    transform: scale(1.05);
+}
+
+
+/* Botón flotante de WhatsApp */
+
+.whatsapp-float {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    line-height: 65px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.1);
+}
+
+
+/* Diseño de contactos */
+
+.contacto-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.contacto-box a {
+    color: inherit;
+    text-decoration: none;
+}
+
+</style>
+
 </head>
 
+
 <body>
+
 
 <header>
 
@@ -22,6 +86,7 @@
 <h1>T-M</h1>
 
 </div>
+
 
 <nav>
 
@@ -33,7 +98,7 @@
 
 <li><a href="nosotros.html">Nosotros</a></li>
 
-<li><a href="contacto.html">Contacto</a></li>
+<li><a href="contacto.html">Contáctanos</a></li>
 
 <li><a href="carrito.html">🛒 Carrito</a></li>
 
@@ -43,20 +108,107 @@
 
 </header>
 
+
+
 <section class="hero">
 
-<div class="hero-text">
 
-<h2>Contacto</h2>
+<div class="hero-text contacto-box">
 
-<p>Si tienes alguna duda no dudes en contactarnos.</p>
+
+<h2>Contáctanos</h2>
+
+
+<p>
+Si tienes alguna duda, contáctanos.
+</p>
+
+
+
+<h3>📞 Nuestros contactos</h3>
+
+
+
+<div>
+
+<h4>Matías</h4>
+
+<p>
+📱 <a href="tel:0991709831">
+0991709831
+</a>
+</p>
+
+
+<a class="whatsapp-btn" 
+href="https://wa.me/593991709831" 
+target="_blank">
+
+💬 Chatear con Matías
+
+</a>
+
 
 </div>
 
+
+
+<br><br>
+
+
+
+<div>
+
+<h4>Tomás</h4>
+
+
+<p>
+📱 <a href="tel:0962603125">
+0962603125
+</a>
+</p>
+
+
+<a class="whatsapp-btn" 
+href="https://wa.me/593962603125" 
+target="_blank">
+
+💬 Chatear con Tomás
+
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
 </section>
+
+
+
+
+
+<!-- Botón flotante de WhatsApp -->
+
+<a href="https://wa.me/593991709831" 
+class="whatsapp-float" 
+target="_blank"
+title="WhatsApp">
+
+💬
+
+</a>
+
+
+
 
 <script src="js/app.js"></script>
 
+
 </body>
 
+</html>
 </html>
