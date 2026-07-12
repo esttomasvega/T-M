@@ -58,15 +58,21 @@ header{
 
 }
 
-.logo img{
+.logo{
 
-    max-width:170px;
-    max-height:60px;
-    width:auto;
-    height:auto;
-    object-fit:contain;
+    display:flex;
+    align-items:center;
 
 }
+
+.logo img{
+
+    width:170px;
+    height:auto;
+    display:block;
+
+}
+            
 .logo img:hover{
     transform:scale(1.08);
 }
