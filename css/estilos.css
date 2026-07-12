@@ -51,12 +51,19 @@ header{
     text-decoration:none;
     display:flex;
     align-items:center;
+.logo{
+
+    display:flex;
+    align-items:center;
+
 }
 
 .logo img{
-    height:70px;
-    width:auto;
-    transition:0.3s;
+
+    width:170px;
+    height:auto;
+    display:block;
+
 }
 
 .logo img:hover{
